@@ -6,8 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Frame1 extends JFrame {
-    private JButton Add = new JButton("Add");
-    private JButton Less = new JButton("Less");
+    private JButton Add = new JButton("<<");
+    private JButton Less = new JButton(">>");
     private JButton Exit = new JButton("Exit");
     private JLabel  lab = new JLabel("^___^");
     private int  x= 150;
